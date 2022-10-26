@@ -16,7 +16,7 @@
 
 ### Links
 
-Live Site URL:
+Live Site URL: https://leonardoschuquel.github.io/single-price-grid-component-master/
 
 ## My process
 
