@@ -13,9 +13,9 @@ body{
     background-size: cover;
     font-family: 'Karla', sans-serif;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
-    place-items: center;
+    place-content: center;
 
 }
 
@@ -24,7 +24,7 @@ main{
     width: 640px;
     height: 435;
     background-color: white;
-    position: absolute;
+    position: relative;
 
 }
 
@@ -43,37 +43,46 @@ h1{
 
 }
 
+header{
+
+    margin-top: 20px;
+
+}
+
 h3{
 
     margin-bottom: 10px;
 
 }
 
-.text h3{
+.white-section h3{
 
     color: hsl(71, 73%, 54%);
 
 }
 
-.text p{
+.white-section p{
 
     color: #D0D5DB;
 
 }
 
-.conteiner{
 
-    margin: 10px;
-
-}
-
-.offer{
+.cyan-secton{
 
     background-color: #2BB3B1;
     width: 300px;
     height: 250px;
     color: #FFFCFE;
+    margin-left: -10px;
+    margin-bottom: -10px;
     
+}
+
+ul{
+
+    list-style-type: none;
+
 }
 
 span{
@@ -86,6 +95,7 @@ h4{
 
     font-size: 15px;
     margin-top: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -95,15 +105,20 @@ button{
     padding: 15px;
     border: #4E9D46;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
-    margin-top: 40px;
+    margin-top: 20px;
     cursor: pointer;
 
 }
 
-.description{
+a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.light-cyan-section{
 
     position: absolute;
     bottom: 0px;
@@ -114,7 +129,7 @@ button{
 
 }
 
-.description p{
+.light-cyan-section p{
 
     width: 210px;
     margin-top: 25px;
@@ -153,14 +168,14 @@ button{
         margin-top: -40px;
 
     }
-    
-    .offer{
+
+    .cyan-secton{
 
         height: 300px;
         
     }
 
-    .description{
+    .light-cyan-section{
 
         position: absolute;
         left: 0;
